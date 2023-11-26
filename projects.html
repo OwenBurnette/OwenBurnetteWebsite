@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Owen Burnette - Projects</title>
+</head>
+<body>
+
+    <header>
+        <h1>Owen Burnette</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project" onclick="showProjectDetails('Project 1')">
+                <h3>Project 1</h3>
+            </div>
+            <div class="project" onclick="showProjectDetails('Project 2')">
+                <h3>Project 2</h3>
+            </div>
+            <!-- Add more project divs as needed -->
+
+            <div id="project-details">
+                <!-- Project details will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Same footer content as in index.html -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
